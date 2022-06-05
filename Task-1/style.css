@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #181818;
+    color: white;
+    max-height: 100vh;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    padding: 0.5rem 9rem;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 8rem;
+    color:white;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    
+}
+.form input{
+    font-size: 1.6rem;
+    padding:0.9rem ;
+    width: 30rem;
+    
+
+    
+}
+
+.form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem 2rem;
+    background-color:#444;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+
+.form button:hover{
+    background-color: red;
+}
+.icon{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+/* main */
+.videos{
+    
+    padding: 2rem 4rem;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 1px red;
+    gap:20px
+
+
+}
+.video{
+  display: flex;
+  
+  padding: 2rem 0;
+  gap:2rem;
+  flex-direction: column;
+  max-width: 50rem;;
+  /* align-items: flex-start; */
+
+   
+}
+
+.img-box img{
+   width: 100%;
+    height: 30rem;
+}
+.description{
+    
+    
+    color:#dee2e6;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap:2rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.description h1{
+    color:#fff;
+    font-size: 2.5rem;
+}
+a{
+    justify-self: center;
+}
+.video-btn{
+    background-color: red;;
+    padding:1rem 0;
+    width:20rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1.2px;
+    
+    
+}
+
+.pagination{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.pageNo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border:none;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+ .pageNo:hover{
+    background-color: red;
+    
+}
+
+
+.active{
+    background-color: red;
+    transform: scale(1.3);
+}
