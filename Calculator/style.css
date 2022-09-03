@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.calculator {
+  max-width: 200px;
+  background-color: red;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
