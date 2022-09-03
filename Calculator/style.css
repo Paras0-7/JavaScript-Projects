@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   height: 100vh;
   display: grid;
@@ -5,15 +8,38 @@ body {
 }
 
 .calculator {
-  max-width: 200px;
-  background-color: red;
+  max-width: 220px;
+  min-height: 220px;
+  background-color: black;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.output {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.output:focus {
+  outline: none;
 }
 
 .inputs {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  column-gap: 4px;
+  height: 100%;
 }
 .numbers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
 }
