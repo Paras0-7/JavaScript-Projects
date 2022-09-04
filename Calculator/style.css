@@ -20,6 +20,7 @@ body {
 .output {
   width: 100%;
   padding: 10px 5px;
+  text-align: right;
 }
 
 .output:focus {
